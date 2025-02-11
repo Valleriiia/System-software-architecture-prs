@@ -35,24 +35,42 @@ gcc -Wall pr1.c -o pr1
 kiwi - 9
 banana - 5
 apple - 10
-...
+date - 3
+cherry - 8
+grape - 15
+banana - 7
+apple - 12
+elderberry - 12
+fig - 4
+honeydew - 6
+apple - 5
 
-Оберіть критерій сортування:
-1 - За словом
-2 - За частотою
-3 - За словом, потім за частотою
-Ваш вибір: 1
+Виберіть критерій сортування:
+1 - За keyword
+2 - За frequency
+3 - За keyword, а потім frequency
+Ваш вибір: 3
 
 Відсортований список:
+apple - 12
 apple - 10
+apple - 5
+banana - 7
 banana - 5
-...
+cherry - 8
+date - 3
+elderberry - 12
+fig - 4
+grape - 15
+honeydew - 6
+kiwi - 9
 
 Введіть слово для пошуку: apple
-Знайдено 3 входження слова 'apple':
-apple - 10
+Знайдено 3 входжень слова 'apple':
 apple - 12
+apple - 10
 apple - 5
+
 ```
 
 ## Обробка помилок
